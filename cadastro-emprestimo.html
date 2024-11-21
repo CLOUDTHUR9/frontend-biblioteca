@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro emprestimo</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/form-aluno.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="listar-aluno.html">ALUNO</a>
+            <a href="listar-emprestimo.html">EMPRESTIMO</a>
+            <a href="listar-livro.html">LIVRO</a>
+        </nav>
+    </header>
+    <h1>CADASTRO EMPRESTIMO</h1>
+    <div class="container-formulario">
+        <form action="" method="post">
+            <label for="Id emprestimo">
+                Id emprestimo
+                <br>
+                <input type="text" name="Id emprestimo" placeholder="Insira o Id emprestimo do emprestimo" required>
+            </label>
+
+            <label for="Id aluno">
+                Id aluno
+                <br>
+                <input type="text" name="Id aluno" placeholder="Insira o Id aluno do emprestimo" required>
+            </label>
+
+            <label for="Id livro">
+                Id livro
+                <br>
+                <input type="text" name="Id livro" placeholder="Insira a Id livro do emprestimo" required>
+            </label>
+
+            <label for="Data de emprestimo">
+                Data de emprestimo
+                <br>
+                <input type="number" name="Data de emprestimo" placeholder="Insira o Data de emprestimo do emprestimo" required>
+            </label>
+            
+            <label for="Data de devolução">
+                Data de devolução
+                <br>
+                <input type="text" name="Data de devolução" placeholder="Insira o Data de devolução do emprestimo" required>
+            </label>
+
+            <input type="button" value="CADASTRAR">
+        </form>
+    </div>
+</body>
